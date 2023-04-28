@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
+    public float moveSpeed;
+    public Rigitbody2D Rigitbody2D;
+
     // Start is called before the first frame update
     void Start()
     {
